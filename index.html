@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WETSAPP Training Portal</title>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -163,6 +165,13 @@
       font-weight: 700;
       margin-bottom: 14px;
       color: #1d1d1f;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .module-section h4 ion-icon {
+      font-size: 20px;
+      flex-shrink: 0;
     }
     .material-item {
       display: flex;
@@ -455,7 +464,7 @@
     </div>
 
     <div class="module-section module-flora-fauna">
-      <h4>🌿 Flora &amp; Fauna</h4>
+      <h4>🐟 Flora &amp; Fauna</h4>
       <!-- Documentation (commented out for now)
       <div class="material-item">
         <div class="material-info">
@@ -475,7 +484,7 @@
     </div>
 
     <div class="module-section module-cleanup">
-      <h4>🧹 Cleanup</h4>
+      <h4>♻️ Cleanup</h4>
       <!-- Documentation (commented out for now)
       <div class="material-item">
         <div class="material-info">
@@ -495,7 +504,7 @@
     </div>
 
     <div class="module-section module-pollution">
-      <h4>💧 Pollution</h4>
+      <h4>🗑️ Pollution</h4>
       <!-- Documentation (commented out for now)
       <div class="material-item">
         <div class="material-info">
@@ -540,7 +549,7 @@
     </h2>
 
     <div class="module-section module-health-form">
-      <h4>❤️ Health Form</h4>
+      <h4>✚ Health Form</h4>
       <!-- Documentation (commented out for now)
       <div class="material-item">
         <div class="material-info">
@@ -580,7 +589,7 @@
     </div>
 
     <div class="module-section module-propagation">
-      <h4>🌳 Propagation</h4>
+      <h4>🌿 Propagation</h4>
       <!-- Documentation (commented out for now)
       <div class="material-item">
         <div class="material-info">
@@ -605,7 +614,7 @@
     </h2>
 
     <div class="module-section module-biomass">
-      <h4>🌾 Biomass</h4>
+      <h4>🌳 Biomass</h4>
       <!-- Documentation (commented out for now)
       <div class="material-item">
         <div class="material-info">
@@ -630,7 +639,7 @@
     </h2>
 
     <div class="module-section module-statistics" data-admin-only="true">
-      <h4>🔒 Statistics <span class="admin-badge">Admin only</span></h4>
+      <h4><ion-icon name="bar-chart-outline"></ion-icon> Statistics <span class="admin-badge">Admin only</span></h4>
       <!-- Documentation (commented out for now)
       <div class="material-item">
         <div class="material-info">
