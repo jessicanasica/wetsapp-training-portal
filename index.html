@@ -249,22 +249,31 @@
     }
 
     /* Per-module accent colors, matching each module's actual page in the WETSAPP app */
-    .module-general,
+    .module-general {
+      border-left: 4px solid #000000;
+    }
+    .module-general h4 {
+      color: #000000;
+    }
+    .module-general .view-btn {
+      background: #000000;
+    }
+    .module-general .view-btn:hover {
+      background: #2a2a2a;
+    }
+
     .module-flora-fauna,
     .module-biomass {
       border-left: 4px solid #52a676;
     }
-    .module-general h4,
     .module-flora-fauna h4,
     .module-biomass h4 {
       color: #478f65;
     }
-    .module-general .view-btn,
     .module-flora-fauna .view-btn,
     .module-biomass .view-btn {
       background: #52a676;
     }
-    .module-general .view-btn:hover,
     .module-flora-fauna .view-btn:hover,
     .module-biomass .view-btn:hover {
       background: #478f65;
